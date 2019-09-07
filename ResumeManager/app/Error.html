@@ -1,0 +1,28 @@
+<html>
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+
+    <body>
+        <div id="space" style="height:10%;">
+        </div>
+        <div class="container" style="background-color: #ffffff; color: #444444; border-radius: 5px; border: 2px solid #ececec;">
+            <h1 class="center-align"><i class="material-icons large" style="padding-top: 2%;"> sentiment_very_dissatisfied </i></h1>
+            <h5 class="center-align" style="padding-left: 10%; padding-right: 10%; padding-bottom: 5%;">There was an error finding/uploading your file! Make sure your file is in <b style="color: #d32f2f;">PDF format</b>, and <b style="color: #d32f2f;">less then 2MB</b>. if you attempted to search for a file, this page might also indicate a <b style="color: #d32f2f;">404 not found error</b></h5>
+        </div>
+        <p class="center-align">
+            <button class="btn-large red waves-effect center-align" onclick="redirect()"><i class="material-icons left">backspace</i> Take Me Back </button>
+        </p>
+    </body>
+    <script>
+        function redirect() {
+            history.go(-1);
+        }
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</html>
